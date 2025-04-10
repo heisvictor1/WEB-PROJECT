@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.house {
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 100px;
+    margin-left: 170px;
+    gap: 80px;
+}
+
+.facebook {
+    font-weight: 700;
+    font-size: 60px;
+    color: #1e65ff;
+    padding-bottom: 10px;
+}
+
+.under-facebook {
+    font-weight: 400;
+    font-size: 28px;
+    width: 530px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 360px;
+    height: 50px;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    text-indent: 16px;
+    caret-color: #1e65ff;
+    font-size: 16px;
+    border-color: #d4d4d4;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #1e65ff;
+}
+
+.first input::placeholder {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a1a1;
+}
+
+.second input::placeholder {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a1a1;
+}
+
+input:focus::placeholder {
+    color: #cccccc;
+}
+.second {
+    padding: 12px 0 12px 0;
+}
+
+.log {
+    width: 360px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(42, 99, 255);
+    font-weight: 600;
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: rgb(42, 99, 255);
+}
+
+.forgot:hover {
+    text-decoration: underline #1e65ff;
+}
+
+.create {
+    width: 205px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(18, 180, 18);
+    border: none;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 25px;
+    opacity: 0.9;
+}
+
+.create a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.create:hover {
+    background-color: rgb(15, 161, 15);
+}
+
+hr {
+    border: 1px thin;
+    border-color: #ffff;
+    opacity: 0.5;
+}
+
+.section {
+    border: 1px solid;
+    padding: 20px 20px 30px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1.8px #808080;
+}
+
+.last {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.house-facebook {
+    margin-top: 40px;
+}
+
+p.last > b> a{
+    text-decoration: none;
+    color: black;
+}
+
+p.last > b> a:hover{
+    text-decoration: underline;
+}
+
+b {
+    opacity: 0.9;
+}
